@@ -24,6 +24,9 @@ VPS (рекомендую Ubuntu 20.04/22.04/24.04)
     sudo apt update && sudo apt upgrade -y
     sudo apt install docker.io -y
 
+```
+bash <(curl -s "https://raw.githubusercontent.com/nkakeephub/mtproto-proxy/main/start-mtproxy.sh")
+```
 
 Создаём скрипт для запуска прокси
 Создайте файл start-mtproxy.sh:
