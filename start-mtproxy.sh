@@ -11,7 +11,7 @@
 IMAGE_NAME="whn0thacked/telemt-docker:latest"
 
 # --- Default values ---
-PORT="4433"
+PORT="4334"
 # Fetch random site or default to google.com (Из вашего репозитория nkakeephub)
 SITE=$(curl -s https://githubusercontent.com | shuf -n 1)
 SITE=${SITE:-"google.com"}
